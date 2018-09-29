@@ -16,3 +16,7 @@ toast.Show(message: "🚨 🍞 First Toast 🍞 🚨", textColor: .white, backgr
 
 The function takes 4 parameters. message(String) - is the message you want to send. textColor & backgroundColor(both UIColor). 
 view (UIView) is the view you want the toast to appear in. The message will last for 4 seconds.
+
+
+# Questions
+HMU... Hart87@gmail.com
