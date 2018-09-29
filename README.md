@@ -1,6 +1,8 @@
 # Toast for iOS
 Toast Messages for iOS - Swift 4 / iOS12
 
+![Alt Text](https://media.giphy.com/media/54ZTjYIqMogM2Rz7m1/giphy.gif)
+
 Toast messages come from Android. They're subtle messages that appear briefly towards
 the bottom of the screen and then go away a few seconds later.
 
