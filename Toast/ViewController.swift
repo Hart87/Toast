@@ -9,15 +9,23 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    let toast = Toast()
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.showToast()
+    }
+    
+    func showToast()
+    {
         // toast
-        var toast = Toast()
-        toast.Show(message: "🚨🚨🚨 🍞 First Toast 🍞  🚨🚨🚨 ... posting this to github", textColor: .white, backgroundColor: .blue, view: self.view)
+        toast.Show(message: "🚨🚨🚨 🍞 First Toast 🍞  🚨🚨🚨 ... posting this to github", view: self.view)
     }
 
-
+    @IBAction func testToast(_ sender: UIButton)
+    {
+        self.showToast()
+    }
+    
 }
 
